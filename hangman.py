@@ -6,13 +6,6 @@ import random
 import turtle
 from turtle import Turtle
 
-# we could add levels to the game
-# level one would be 4 letter words and we would only read from "fourLetterWords.txt"
-# level two would be 6 letter words and we would only read from "sixLetterWords.txt"
-# .... and so on: We make four levels.
-# We must remember to ask player if they want to move to the next level
-# 
-
 # opens text file and chooses word
 def chooseWord(level):
     # Ask for difficulty level
